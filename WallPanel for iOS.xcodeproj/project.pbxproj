@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012E35201E990F9D00F71EC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E351F1E990F9D00F71EC2 /* AppDelegate.swift */; };
+		012E35271E990F9D00F71EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012E35261E990F9D00F71EC2 /* Assets.xcassets */; };
+		012E352A1E990F9D00F71EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012E35281E990F9D00F71EC2 /* LaunchScreen.storyboard */; };
+		012E35351E991B4700F71EC2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012E35341E991B4700F71EC2 /* DashboardViewController.swift */; };
+		01A42D4E1EA043300064E4D9 /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A42D4D1EA043300064E4D9 /* SidebarViewController.swift */; };
+		01BA767F1EA223A100193891 /* RightNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BA767E1EA223A100193891 /* RightNavigationController.swift */; };
+		01BA76811EA22B9700193891 /* SidebarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01BA76801EA22B9700193891 /* SidebarView.xib */; };
+		01CBC1661E9C546B002F2C30 /* MQTTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CBC1651E9C546B002F2C30 /* MQTTManager.swift */; };
+		01CBC1681E9C6EBE002F2C30 /* loggingPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CBC1671E9C6EBE002F2C30 /* loggingPrint.swift */; };
+		01CBC16A1E9CFF06002F2C30 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01CBC1691E9CFF06002F2C30 /* Settings.bundle */; };
+		01CBC16C1E9D8F6C002F2C30 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CBC16B1E9D8F6C002F2C30 /* Config.swift */; };
+		01CBC16E1E9DB337002F2C30 /* WallPanelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CBC16D1E9DB337002F2C30 /* WallPanelManager.swift */; };
+		01D9990B1EA2F855009CDF59 /* WallPanelStateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D9990A1EA2F855009CDF59 /* WallPanelStateDelegate.swift */; };
+		01D9990D1EA3B2A6009CDF59 /* UIDashboardWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D9990C1EA3B2A6009CDF59 /* UIDashboardWebView.swift */; };
+		01D9990F1EA3C4D7009CDF59 /* ConfigChangeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D9990E1EA3C4D7009CDF59 /* ConfigChangeDelegate.swift */; };
+		6B74E1C2F17BE61E6A7F8426 /* Pods_WallPanel_for_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D573DA8833DFBC10AAC63E18 /* Pods_WallPanel_for_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012E351C1E990F9D00F71EC2 /* WallPanel for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WallPanel for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		012E351F1E990F9D00F71EC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		012E35261E990F9D00F71EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		012E35291E990F9D00F71EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		012E352B1E990F9D00F71EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012E35341E991B4700F71EC2 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		01A42D4D1EA043300064E4D9 /* SidebarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
+		01BA767E1EA223A100193891 /* RightNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightNavigationController.swift; sourceTree = "<group>"; };
+		01BA76801EA22B9700193891 /* SidebarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SidebarView.xib; sourceTree = "<group>"; };
+		01CBC1651E9C546B002F2C30 /* MQTTManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQTTManager.swift; sourceTree = "<group>"; };
+		01CBC1671E9C6EBE002F2C30 /* loggingPrint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loggingPrint.swift; sourceTree = "<group>"; };
+		01CBC1691E9CFF06002F2C30 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		01CBC16B1E9D8F6C002F2C30 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		01CBC16D1E9DB337002F2C30 /* WallPanelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallPanelManager.swift; sourceTree = "<group>"; };
+		01D9990A1EA2F855009CDF59 /* WallPanelStateDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallPanelStateDelegate.swift; sourceTree = "<group>"; };
+		01D9990C1EA3B2A6009CDF59 /* UIDashboardWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDashboardWebView.swift; sourceTree = "<group>"; };
+		01D9990E1EA3C4D7009CDF59 /* ConfigChangeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigChangeDelegate.swift; sourceTree = "<group>"; };
+		AC70C8FB3CABD57CE426736C /* Pods-WallPanel for iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallPanel for iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WallPanel for iOS/Pods-WallPanel for iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C562A66C87C8D24DD1DDF01A /* Pods-WallPanel for iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallPanel for iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WallPanel for iOS/Pods-WallPanel for iOS.release.xcconfig"; sourceTree = "<group>"; };
+		D573DA8833DFBC10AAC63E18 /* Pods_WallPanel_for_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallPanel_for_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		012E35191E990F9D00F71EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B74E1C2F17BE61E6A7F8426 /* Pods_WallPanel_for_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012E35131E990F9D00F71EC2 = {
+			isa = PBXGroup;
+			children = (
+				012E351E1E990F9D00F71EC2 /* wallpanel-ios */,
+				012E351D1E990F9D00F71EC2 /* Products */,
+				18743876D5862509A0A424E6 /* Pods */,
+				A005A6BB0869F79B30A6CF0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		012E351D1E990F9D00F71EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				012E351C1E990F9D00F71EC2 /* WallPanel for iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		012E351E1E990F9D00F71EC2 /* wallpanel-ios */ = {
+			isa = PBXGroup;
+			children = (
+				01CBC1691E9CFF06002F2C30 /* Settings.bundle */,
+				012E352B1E990F9D00F71EC2 /* Info.plist */,
+				012E351F1E990F9D00F71EC2 /* AppDelegate.swift */,
+				01CBC16B1E9D8F6C002F2C30 /* Config.swift */,
+				01D9990E1EA3C4D7009CDF59 /* ConfigChangeDelegate.swift */,
+				012E35341E991B4700F71EC2 /* DashboardViewController.swift */,
+				01CBC1671E9C6EBE002F2C30 /* loggingPrint.swift */,
+				01CBC1651E9C546B002F2C30 /* MQTTManager.swift */,
+				01BA767E1EA223A100193891 /* RightNavigationController.swift */,
+				01A42D4D1EA043300064E4D9 /* SidebarViewController.swift */,
+				01D9990C1EA3B2A6009CDF59 /* UIDashboardWebView.swift */,
+				01CBC16D1E9DB337002F2C30 /* WallPanelManager.swift */,
+				01D9990A1EA2F855009CDF59 /* WallPanelStateDelegate.swift */,
+				012E35261E990F9D00F71EC2 /* Assets.xcassets */,
+				01BA76801EA22B9700193891 /* SidebarView.xib */,
+				012E35281E990F9D00F71EC2 /* LaunchScreen.storyboard */,
+			);
+			name = "wallpanel-ios";
+			path = WallPanel;
+			sourceTree = "<group>";
+		};
+		18743876D5862509A0A424E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC70C8FB3CABD57CE426736C /* Pods-WallPanel for iOS.debug.xcconfig */,
+				C562A66C87C8D24DD1DDF01A /* Pods-WallPanel for iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A005A6BB0869F79B30A6CF0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D573DA8833DFBC10AAC63E18 /* Pods_WallPanel_for_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		012E351B1E990F9D00F71EC2 /* WallPanel for iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012E352E1E990F9D00F71EC2 /* Build configuration list for PBXNativeTarget "WallPanel for iOS" */;
+			buildPhases = (
+				DC053A46FF5960F3C0C1F535 /* [CP] Check Pods Manifest.lock */,
+				012E35181E990F9D00F71EC2 /* Sources */,
+				012E35191E990F9D00F71EC2 /* Frameworks */,
+				012E351A1E990F9D00F71EC2 /* Resources */,
+				CEA33A574A623424A3905E74 /* [CP] Embed Pods Frameworks */,
+				88AC649022E10E2A9653456E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WallPanel for iOS";
+			productName = WallPanel;
+			productReference = 012E351C1E990F9D00F71EC2 /* WallPanel for iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		012E35141E990F9D00F71EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = com.sabinske.nick;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Nick;
+				TargetAttributes = {
+					012E351B1E990F9D00F71EC2 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JMPD634HZ8;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 012E35171E990F9D00F71EC2 /* Build configuration list for PBXProject "WallPanel for iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 012E35131E990F9D00F71EC2;
+			productRefGroup = 012E351D1E990F9D00F71EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				012E351B1E990F9D00F71EC2 /* WallPanel for iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		012E351A1E990F9D00F71EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CBC16A1E9CFF06002F2C30 /* Settings.bundle in Resources */,
+				01BA76811EA22B9700193891 /* SidebarView.xib in Resources */,
+				012E352A1E990F9D00F71EC2 /* LaunchScreen.storyboard in Resources */,
+				012E35271E990F9D00F71EC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88AC649022E10E2A9653456E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WallPanel for iOS/Pods-WallPanel for iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA33A574A623424A3905E74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WallPanel for iOS/Pods-WallPanel for iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC053A46FF5960F3C0C1F535 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		012E35181E990F9D00F71EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A42D4E1EA043300064E4D9 /* SidebarViewController.swift in Sources */,
+				01CBC16E1E9DB337002F2C30 /* WallPanelManager.swift in Sources */,
+				01CBC1681E9C6EBE002F2C30 /* loggingPrint.swift in Sources */,
+				01CBC16C1E9D8F6C002F2C30 /* Config.swift in Sources */,
+				01BA767F1EA223A100193891 /* RightNavigationController.swift in Sources */,
+				012E35351E991B4700F71EC2 /* DashboardViewController.swift in Sources */,
+				01D9990F1EA3C4D7009CDF59 /* ConfigChangeDelegate.swift in Sources */,
+				012E35201E990F9D00F71EC2 /* AppDelegate.swift in Sources */,
+				01CBC1661E9C546B002F2C30 /* MQTTManager.swift in Sources */,
+				01D9990D1EA3B2A6009CDF59 /* UIDashboardWebView.swift in Sources */,
+				01D9990B1EA2F855009CDF59 /* WallPanelStateDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		012E35281E990F9D00F71EC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				012E35291E990F9D00F71EC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		012E352C1E990F9D00F71EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		012E352D1E990F9D00F71EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		012E352F1E990F9D00F71EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC70C8FB3CABD57CE426736C /* Pods-WallPanel for iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = JMPD634HZ8;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/WallPanel/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sabinske.nick.WallPanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		012E35301E990F9D00F71EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C562A66C87C8D24DD1DDF01A /* Pods-WallPanel for iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = JMPD634HZ8;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/WallPanel/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sabinske.nick.WallPanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		012E35171E990F9D00F71EC2 /* Build configuration list for PBXProject "WallPanel for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012E352C1E990F9D00F71EC2 /* Debug */,
+				012E352D1E990F9D00F71EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		012E352E1E990F9D00F71EC2 /* Build configuration list for PBXNativeTarget "WallPanel for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				012E352F1E990F9D00F71EC2 /* Debug */,
+				012E35301E990F9D00F71EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 012E35141E990F9D00F71EC2 /* Project object */;
+}
