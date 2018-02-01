@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class UIDashboardWebView: UIWebView {
+class UIDashboardWebView: UIWebView, UIWebViewDelegate {
 
     let wallPanel: WallPanelManager
     
@@ -21,10 +21,19 @@ class UIDashboardWebView: UIWebView {
         self.scrollView.bounces = false
         self.scalesPageToFit = true
         self.dataDetectorTypes = []
+        
+        self.delegate = self;
     }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    func webViewDidFinishLoad(_ webView: UIWebView) {
+        // Disable user selection
+        webView.stringByEvaluatingJavaScript(from: "document.documentElement.style.webkitUserSelect='none'")
+        // Disable callout
+        webView.stringByEvaluatingJavaScript(from: "document.documentElement.style.webkitTouchCallout='none'")
     }
 
     /// For Dashboards
