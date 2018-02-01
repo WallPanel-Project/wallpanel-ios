@@ -38,11 +38,11 @@ class DashboardViewController: UIViewController {
         if (!wallPanel.config.sidebarDisabled) {
             let menuRightNavigationController = RightNavigationController(wallPanel: wallPanel)
             
-            SideMenuManager.menuRightNavigationController = menuRightNavigationController
-            SideMenuManager.menuAddPanGestureToPresent(toView: self.view)
-            SideMenuManager.menuAddScreenEdgePanGesturesToPresent(toView: self.webView.scrollView)
-            SideMenuManager.menuPresentMode = .menuSlideIn
-            SideMenuManager.menuWidth = 300
+            SideMenuManager.default.menuRightNavigationController = menuRightNavigationController
+            SideMenuManager.default.menuAddPanGestureToPresent(toView: self.view)
+            SideMenuManager.default.menuAddScreenEdgePanGesturesToPresent(toView: self.webView.scrollView)
+            SideMenuManager.default.menuPresentMode = .menuSlideIn
+            SideMenuManager.default.menuWidth = 300
         }
     }
 
